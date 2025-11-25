@@ -67,7 +67,7 @@ with app.app_context():
     print("✅ Base de datos verificada/creada")
 
 # CONFIGURACIÓN DEL MODELO Y PREPROCESAMIENTO
-MODEL_PATH = 'model/modelo_neumonia_final.h5' 
+MODEL_PATH = 'modelo_neumonia_final.h5' 
 model = None
 try:
     model = keras.models.load_model(MODEL_PATH, compile=False)
