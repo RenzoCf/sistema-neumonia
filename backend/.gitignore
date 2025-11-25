@@ -1,0 +1,9 @@
+#Archivo de base de datos que se recrea
+
+pneumodetect.db
+
+#Ignorar entornos virtuales y archivos temporales
+
+venv/
+pycache/
+*.pyc
